@@ -9,6 +9,7 @@ interface PokemonDetails {
   defense: number;
   spriteFront: string;
   artworkFront: string;
+  types: string[]
 }
 
 const usePokemonDetails = (pokemonName: string) => {
